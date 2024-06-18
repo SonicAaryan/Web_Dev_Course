@@ -1,0 +1,25 @@
+.container {
+    background-color: antiquewhite;
+    width: 50vw;
+    height: 40vh;
+}
+
+.box {
+    background-color: rgb(1, 94, 255);
+    width: 5vw;
+    height: 4vh;
+    /* 
+    transition-property: background-color, transform;
+    transition-duration: 1s;
+     t-a - kiti vela paryant transition work karel 
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+    kiti velat perform hoel 
+    */
+    transition: all 0.9s sine .6s;
+}
+
+.translate {
+    transform: translateX(10vw) translateY(10vh) scale(2);
+    background-color: blueviolet;
+}

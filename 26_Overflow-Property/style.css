@@ -1,0 +1,14 @@
+.container {
+    width: 40vw;
+    height: 20vh;
+    border: 1px solid gray;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    /* if bigger then it will shows the scroll bar */
+}
+
+p {
+    margin: 0;
+}

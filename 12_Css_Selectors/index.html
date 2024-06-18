@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        /* div {
+            background-color: gray;
+        } */
+
+        /* Class Selector */
+        .red {
+            color: orange;
+        }
+
+        /* #Id Selector */
+        #second-div {
+            background-color: aqua;
+        }
+
+        /* Child Selectors -> div chya ath p hava */
+        div>p {
+            color: blue;
+            background-color: yellow;
+        }
+
+        /* Descendant Selector -> div chya ath kuthe pun div asla tar tyla apply hoel*/
+        /* div p {
+            color: rgb(255, 255, 255);
+            background-color: rgba(255, 24, 24, 0.894)
+        } */
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 5px;
+        }
+
+
+        /* Pseudo Selector */
+        a:visited {
+            color: yellow;
+            /* here the anchor tag will be yellow if the link is visited */
+        }
+
+        a:link {
+            color: green;
+        }
+
+        p:first-child {
+            font-size: 28px;
+            font-family: 700;
+            color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <p>First Child</p>
+        <p>Second Child</p>
+        <div class="red">
+            I am a div
+            <p>I am a para inside div</p>
+            <article>
+                Article
+            </article>
+        </div>
+        <div id="second-div">
+            I am another div
+        </div>
+        <a href="https://www.twitter.com" target="_blank">Go to Google</a>
+    </main>
+</body>
+
+</html>

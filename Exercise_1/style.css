@@ -1,0 +1,38 @@
+.video-container {
+    width: 100%;
+    max-width:99%;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.video-list {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.audio {
+    background-color: aquamarine;
+}
+
+.audio-list {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

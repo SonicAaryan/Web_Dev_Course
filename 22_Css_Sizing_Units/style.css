@@ -1,0 +1,33 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 70vw;
+    /* width: 100vmin; vmin is for height*/ 
+    /* width: 100vh; vh is for phone*/ 
+    margin: auto;
+    height: 10vh;
+    /* Takes height till 10 view-port (as per screen size to increase Responsiveness) */
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: 20px auto;
+
+    width: 70vw;
+    height: 60vh auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: aquamarine;
+    font-size: 12px;
+}
+
+.para {
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    /* Root element (html(from that's where inherit start)) 2*2 hoel  (16*2 =32px)*/
+}

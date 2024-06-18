@@ -1,0 +1,32 @@
+header {
+    background-color: #333;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.nav a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+img {
+    height: 600px;
+}

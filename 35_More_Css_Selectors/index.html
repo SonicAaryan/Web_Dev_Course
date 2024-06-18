@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Css Selectors</title>
+    <style>
+        * {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* .box bcz box ha boxes cha 1st child ahe */
+        .box:first-child {
+            background-color: red;
+        }
+
+        .box::first-line {
+            color: rgb(219, 233, 22);
+            font-weight: bold;
+            /* here the paragraph of the first line will be yellow  and rest will be black */
+        }
+
+        .boxes * {
+            border: 1px solid black;
+            color: blue;
+        }
+
+        /* Attribute selector */
+        /* p,
+        a,
+        .box,
+        [data-color="primary"] {
+            margin-top: 20px;
+        } */
+        .box:nth-child(even) {
+            background-color: blue;
+        }
+
+        .boxes::before {
+            /* These are called pseudo elements */
+            content: "Aaryan";
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(94, 94, 252);
+        }
+
+        .boxes::after {
+            /* After the main content */
+            content: "rao";
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            color: rgb(94, 94, 252);
+        }
+
+        ::selection {
+            color: rgb(132, 255, 0);
+            /* applies for selected Text */
+        }
+
+        input::placeholder {
+            color: rgb(139, 22, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="boxes">
+            <div class="box">hey Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum unde quia sunt debitis
+                at iusto aperiam, sequi odio ut, eum quae! Tempore nulla tempora sit dolores, doloribus totam, minus cum
+                esse dolor beatae reiciendis nesciunt deleniti! Excepturi, illum ipsa corporis expedita quam quas dolor,
+                commodi iusto eligendi necessitatibus mollitia quibusdam accusamus obcaecati dolorum. Aliquid aperiam
+                fugiat hic obcaecati modi consequatur tenetur dolore libero fuga atque animi nobis, odit at reiciendis
+                maxime laudantium alias nisi quam eaque reprehenderit voluptate ratione! Voluptatibus sapiente iusto ea
+                doloremque iure dolorum obcaecati molestiae! Temporibus magni tempore, aliquid quasi neque architecto
+                adipisci quisquam voluptatem ad harum.</div>
+            <div data-color="primary" class="box">hey </div>
+            <div class="box">hey </div>
+            <input type="text" placeholder="Enter the input">
+        </div>
+    </main>
+</body>
+
+</html>

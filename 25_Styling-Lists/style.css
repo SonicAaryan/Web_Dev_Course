@@ -1,0 +1,11 @@
+ul {
+    display: flex;
+    padding: 10px 0px 0px 200px;
+}
+
+li {
+    padding: 12px;
+    list-style: none;
+    /* list-style: disc inside url(); */
+    border: 1px solid rgb(197, 193, 193);
+}

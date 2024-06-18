@@ -1,0 +1,19 @@
+.cards {
+    width: auto;
+    border: 2px solid black;
+    display: flow-root;
+    /** flow-root manages us overflow to get into the layout but now a days we don't use floatm and Clear*/
+}
+
+img {
+    float: left;
+}
+
+.card {
+    border: 1px solid red;
+}
+
+.card:nth-child(3) {
+    background-color: aquamarine;
+    clear: left;
+}
