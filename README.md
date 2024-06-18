@@ -30,5 +30,3 @@ We welcome contributions from everyone. If you have suggestions, bug reports, or
 4. **Submit a pull request.**
 
 ---
-
-Feel free to customize this README.md file further as per your specific course details and requirements.
